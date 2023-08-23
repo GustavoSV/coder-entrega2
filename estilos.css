@@ -67,11 +67,18 @@
     text-align: center !important;
     padding-top: 40px;
 }
-.col{
+.columna-h{
     height: 600px;
     padding: 30px;
 }
-.card{
+.tarj-h{
+    padding: 20px;
+}
+
+.columna-c{
+    padding: 20px;
+}
+.tarj-c{
     padding: 20px;
 }
 
@@ -99,6 +106,13 @@
 
 }
 
+.tit-galeria{
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+    background-color: #806953;
+}
+
 @media only screen and (min-width: 1260px) {
     .tarjetas{
         height: 800px;
@@ -118,7 +132,7 @@
     .tarjetas{
         height: 2400px;
     }
-    .col{
+    .columna-h{
         height: 600px;
     }
 }
